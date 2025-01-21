@@ -14,7 +14,7 @@ def calculate_cost(input_tokens, output_tokens, input_cost_per_million=15.00, ou
         dict: A dictionary with detailed costs for input, output, and total cost.
     """
     # Convert tokens to millions
-    input_tokens_millions = input_tokens / 1_000_000 ## TODO: user input model / pricing
+    input_tokens_millions = input_tokens / 1_000_000 ## TODO: user input model / pricing https://openai.com/api/pricing/
     output_tokens_millions = output_tokens / 1_000_000
 
     # Calculate costs
